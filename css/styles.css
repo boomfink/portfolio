@@ -11630,7 +11630,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: var(--bs-primary);
 }
 .profile .dots-3 {
   position: absolute;
@@ -11648,7 +11648,7 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: var(--bs-primary);
 }
 
 @media (min-width: 576px) {

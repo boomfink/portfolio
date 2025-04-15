@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portfolio - Eric Svensson</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Portfolio</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Project Summary -->
+            <section class="py-5 bg-white">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="fw-bolder">IoT Toolbox</h1>
+                            <p class="lead fw-normal text-muted mb-0">A versatile platform for industrial protocol testing and observation.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid rounded shadow" src="assets\Projects\IOT Toolbox\HOME.png" alt="IoT Toolbox Overview" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Project Information -->
+            <section class="py-5 bg-light">
+                <div class="container px-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-12">
+                            <h2 class="fw-bolder mb-4">Project Information</h2>
+                            <p>
+                                Originally developed as a supplementary tool for a university course on cyber-physical systems, 
+                                the IoT Toolbox is a cross-platform application designed to facilitate the observation, simulation, and analysis 
+                                of communication between industrial devices. It supports protocols like MQTT, Socket, and OPC UA, allowing students and professionals 
+                                to better understand and test Industry 4.0 communication standards.
+                            </p>
+                            <p>
+                                The application was built using Python and integrated with a user-friendly GUI, enabling real-time message flow inspection, 
+                                device simulation, and logging for troubleshooting and analysis.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="projectCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded shadow">
+                            <div class="carousel-item active">
+                                <img src="assets\Projects\IOT Toolbox\MQTT_resized.png" class="d-block w-100" alt="Screenshot 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets\Projects\IOT Toolbox\OPC UA.png" class="d-block w-100" alt="Screenshot 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="carousel-indicators mt-3">
+                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+            <!-- Project Details -->
+            <section class="py-5 bg-white">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10">
+                            <h2 class="fw-bolder mb-4">Project Details</h2>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Project Name</th>
+                                            <td>IoT Toolbox</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Purpose</th>
+                                            <td>Tool for aiding in setup of industrial communication protocols (OPC UA, MQTT, Socket)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Tech Stack</th>
+                                            <td>Python, PySide2, OPC UA, Paho-MQTT, Socket </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Main Features</th>
+                                            <td>
+                                                <ul class="mb-0">
+                                                    <li>MQTT Real-Time monitoring and messaging</li>
+                                                    <li>Socket message communication</li>
+                                                    <li>OPC UA Node viewer and manipulator</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Development Time</th>
+                                            <td>~1 Month</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Project Type</th>
+                                            <td>
+                                                <ul class="mb-0">
+                                                    <li>Hobby Project</li>
+                                                    <li>Personal Tool</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Status</th>
+                                            <td>Good Enough - v0.3 (Modbus and ROS not implemented)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; E.Svensson 2025</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terms</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

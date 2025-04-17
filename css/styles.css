@@ -11751,3 +11751,15 @@ html {
     left: -2vw;
   }
 }
+
+#experience {
+  background-color: #f8f9fa;
+}
+
+#experience img {
+  transition: transform 0.3s ease;
+}
+
+#experience img:hover {
+  transform: scale(1.03);
+}

@@ -11763,3 +11763,40 @@ html {
 #experience img:hover {
   transform: scale(1.03);
 }
+
+.experience-full {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2rem;
+  scroll-snap-align: start;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 3rem;
+  position: relative;
+}
+
+.content {
+  max-width: 800px;
+  text-align: center;
+  z-index: 2;
+}
+
+.overlay-link {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 1;
+}
